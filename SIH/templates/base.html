@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+National Job portal
+
+</title>
+{% block head %}
+
+{% endblock head %}
+<link rel="stylesheet" type="text/css" href="{%static 'style.css'%}">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="coral">
+<div class="menubar">
+<ul>
+<li class="active"><i class="fa fa-home"></i><font  size="5"><a href="#"><b>Home</b></a></font></li>
+<li><i class="fa fa-info"></i><font  size="5"><a href="#"><b>Jobs info</b></a></font>
+<div class="sub-menu-1">
+<ul>
+<li><a href="#">Search-Jobs</a></li>
+<li><a href="#">Creat-Job-Alert</a></li>
+<li><a href="#">Register-Now</a></li>
+</ul>
+</div>
+
+</li>
+<li><font size="5"><i class="fa fa-user"></i><a href="#"><b>About</b></a></font>
+<div class="sub-menu-1">
+<ul>
+<li><a href="#">Mission</a></li>
+<li><a href="#">Vission</a></li>
+<li><a href="#">Team</a></li>
+</ul>
+</div>
+</li>
+<li><font  size="5"><i class="fa fa-phone"></i><a href="#"><b>Contact</b></a></font>
+<div class="sub-menu-1">
+<ul>
+<li><a href="#">Call</a></li>
+<li><a href="#">Email</a></li>
+</ul>
+</div>
+</li>
+<li><font  size="5"><i class="fa fa-users"></i><a href="#"><b>Users</b></a></font>
+<div class="sub-menu-1">
+<ul>
+<li><a href="#">Admin</a></li>
+<li><a href="#">Jobseeker</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</br>
+<center>
+<div class="title1">
+<font color="red"  size="10"><b><marquee  direction="right">National Job portal</marquee><b></font>
+</div>
+</center>
+</br></br></br>
+{% block content %}
+
+{% endblock content %}
+
+<center>
+<div class="r">
+<font color="red" size="7">SUGGESTED SEARCHES</font> 
+</div>
+</center>
+
+
+<center>
+<div class="b">
+<h2>
+<a href="#"><b>Administrative Assistant </b></a><b> <font color="red" size="6"> | </font></b>
+<a href="#"><b>Information Technology</b></a><b><font color="red" size="6"> | </font></b>
+<a href="#"><b>Finance </b></a><b><font color="red" size="6"> | </font></b>
+<a href="#"><b>Marketing </b></a><b> <font color="red" size="6"> | </font></b>
+<a href="#"><b>Engineering</b></a><b><font color="red" size="6"> | </font></b>
+<a href="#"><b>Finance </b></a>
+</h2>
+</div>
+</center>
+</br></br>
+<img src="{%static '5.jpg' %}" height=350px width=100%>
+<marquee scrollamount="25"><img src="{%static '6.jpg' %}" height=300px width=50%><img src="{%static '11.jpg'%}" height=300px width=50%><img src="{%static '10.jpg' %}" height=300px width=50%><img src="{%static '9.png' %}" height=300px width=50%><img src="{%static '8.png' %}" height=300px width=50%><img src="{%static '7.jpg' %}" height=300px width=50%></marquee>
+</body>
+</html>

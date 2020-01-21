@@ -1,0 +1,104 @@
+body{
+    
+    background-color: coral;
+    background-size:cover;
+    background-attachment:fixed;
+    
+    }
+    *
+    {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+    .menubar{
+    background:grey;
+    text-align:center;
+    }
+    .menubar ul
+    {
+    display:inline-flex;
+    list-style:none;
+    }
+    .menubar ul li
+    {
+     width:120px;
+     margin:15px;
+     padding:15 px;
+    }
+    .active,.menubar ul li:hover
+    {
+    background:yellow;
+    border-radius:3px;
+    }
+    .menubar ul li a
+    {
+     text-decoration:none;
+    }
+    .menubar .fa
+    {
+    margin-right:8px;
+    }
+    .sub-menu-1
+    {
+    display:none;
+    }
+    .menubar ul li:hover .sub-menu-1
+    {
+    display:block;
+    position:absolute;
+    background:yellow;
+    margin-left:10px;
+    margin-right:10px;
+    }
+    .menubar ul li:hover .sub-menu-1 ul
+    {
+    display:block;
+    margin:10px;
+    }
+    .menubar ul li:hover .sub-menu-1 ul li
+    {
+    width:100px;
+    padding:10px;
+    border:solid black;
+    }
+    .menubar ul li:hover .sub-menu-1 ul li a:hover
+    {
+    color:red;
+    }
+    .t
+    {
+    background: rgba(0,0,0,.3);
+    border:solid;
+    position:center;
+    width:350px;
+    padding:40px;
+    transform:translate(-50%,-50%)
+    }
+    .b a:hover
+    {
+    color:red;
+    }
+    .b a:active
+    {
+    color:green;
+    }
+    .title1
+    {
+    background: rgba(0,0,0,.3);
+    position:center;
+    width:100%;
+    padding:40px;
+    transform:translate(-50%,-50%)
+    margin=20px auto;
+    }
+    .r
+    {
+    background: rgba(0,0,0,.7);
+    border:solid;
+    border-color:yellow;
+    position:center;
+    width:750px;
+    padding:10px;
+    
+    }
